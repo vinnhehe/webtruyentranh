@@ -1,0 +1,67 @@
+.login {
+  padding: 100px 0;
+  text-align: center;
+}
+html {
+  background-color: #b6d0e2;
+}
+.chung {
+  background-color: #b6d0e2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ten {
+  display: block;
+  margin-left: 32%;
+}
+#username {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#password {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.matkhau {
+  display: block;
+  margin-left: 32%;
+  margin-top: 30px;
+}
+.checkbox {
+  margin-left: 32%;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  margin-left: 44%;
+  margin-top: 40px;
+  /* padding: 25px; */
+}
+button a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+#nut {
+  width: 170px;
+  height: 50px;
+  border-radius: 0.5rem;
+}
+.duoi {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.duoi a {
+  text-decoration: none;
+  color: rgb(13, 110, 253);
+}
