@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cbcbcb;
+  margin: 0px;
+  font-family: "Segoe UI", sans-serif;
+}
+header {
+  background-color: #383838;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 20;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 20px;
+  top: 25px;
+  gap: 10px;
+}
+.contact a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact a:hover {
+  color: #fff;
+}
+.dropdown {
+  position: relative;
+  right: 6%;
+  z-index: 10;
+}
+.btn-dropdown {
+  display: flex;
+  left: 7%;
+  padding: 6px 12px;
+  border-radius: 10%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 120px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 7%;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 2px 0;
+}
+.dropdown-content a:hover {
+  color: cyan;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#search1 {
+  position: relative;
+  right: 8%;
+  border-radius: 6%;
+}
+.search-input {
+  width: 300px;
+  border-radius: 2%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 100px;
+  background-color: #cbcbcb;
+  margin-bottom: 150px;
+}
+.product p {
+  font-weight: bolder;
+  font-size: 14.5px;
+  position: relative;
+  top: 0px;
+}
+.container-title {
+  display: flex;
+  color: rgb(55, 65, 81);
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.product .chap {
+  font-size: small;
+  position: relative;
+  bottom: -5px;
+}
+.product {
+  margin: 5px;
+  width: 200px;
+  position: relative;
+  transition: 0.3s;
+}
+.product:hover {
+  transform: scale(1.1);
+}
+.product img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+/* footer {
+  position: relative;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding-top: 20px;
+} */
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding-top: 20px;
+  gap: 10px;
+}
