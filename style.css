@@ -134,19 +134,22 @@ header a {
   font-size: 11px;
   padding: 2px 6px;
 }
-.contact-btn:hover {
-  background-color: #00796b;
-}
 .contact-btn {
   position: fixed;
-  bottom: 0px;
-  right: 15px;
-  padding: 10px 20px;
-  background-color: #009688;
+  bottom: 50px;
+  right: 50px;
+  padding: 5px;
   color: white;
-  border-radius: 24px;
+  border-radius: 100%;
   border: none;
-  z-index: 10000000;
+  cursor: pointer;
+  z-index: 30;
+  width: 40px;
+  height: 40px;
+}
+.contact-btn img {
+  width: 80px;
+  height: 50px;
 }
 #navigation {
   display: flex;
@@ -234,7 +237,7 @@ header a {
   height: 30px;
   border-radius: 15px;
   position: relative;
-  margin-left: 830px;
+  margin-left: 900px;
   bottom: 0px;
   margin-bottom: 20px;
 }
