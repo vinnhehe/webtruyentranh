@@ -48,9 +48,11 @@ header a {
 }
 .btn-dropdown {
   display: flex;
-  left: 7%;
-  padding: 6px 12px;
-  border-radius: 10%;
+  padding: 12px 12px;
+  border-radius: 100%;
+  border: none;
+  width: 35px;
+  height: 35px;
 }
 .dropdown-content {
   display: none;
@@ -69,7 +71,7 @@ header a {
   padding: 2px 0;
 }
 .dropdown-content a:hover {
-  color: cyan;
+  color: gray;
 }
 .dropdown:hover .dropdown-content {
   display: block;
