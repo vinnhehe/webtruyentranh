@@ -34,7 +34,7 @@
         <p>MẬT KHẨU</p>
         <input
           id="password"
-          type="text"
+          type="password"
           class="form-control"
           placeholder="Mật khẩu"
           aria-label="Password"
@@ -53,7 +53,7 @@
       </div>
       <div class="button">
         <button id="nut" type="button" class="btn btn-primary">
-          <a href="#" class="text-white">Đăng Nhập</a>
+          <span href="#" class="text-white">Đăng Nhập</span>
         </button>
       </div>
       <div class="duoi">
@@ -87,5 +87,20 @@
         ></iframe>
       </div>
     </footer>
+    <script>
+      document.getElementById("nut").addEventListener("click", function () {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        const correctUsername = "admin";
+        const correctPassword = "1234";
+
+        if (username === correctUsername && password === correctPassword) {
+          window.location.href = "index.html";
+        } else {
+          window.location.href = "error.html";
+        }
+      });
+    </script>
   </body>
 </html>
