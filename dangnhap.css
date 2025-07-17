@@ -8,6 +8,20 @@ html {
 .chung {
   background-color: #b6d0e2;
 }
+header {
+  background-color: #383838;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 20;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
@@ -64,4 +78,14 @@ button a {
 .duoi a {
   text-decoration: none;
   color: rgb(13, 110, 253);
+}
+footer {
+  position: relative;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding-top: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
 }

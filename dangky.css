@@ -13,6 +13,20 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  background-color: #383838;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 20;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
 .ten {
   display: block;
   margin-left: 25%;
@@ -92,4 +106,14 @@ button a {
 .container h5 {
   font-size: 20px;
   font-weight: bold;
+}
+footer {
+  position: relative;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding-top: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
 }
