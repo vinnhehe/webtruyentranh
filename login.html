@@ -92,10 +92,18 @@
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
 
-        const correctUsername = "admin";
-        const correctPassword = "1234";
+        const validUsers = [
+          { username: "admin", password: "1234" },
+          { username: "user1", password: "abcd" },
+        ];
 
-        if (username === correctUsername && password === correctPassword) {
+        // const correctUsername = "admin";
+        // const correctPassword = "1234";
+        const isValid = validUsers.some(
+          (user) => user.username === username && user.password === password
+        );
+
+        if (isValid) {
           window.location.href = "index.html";
         } else {
           window.location.href = "error.html";
