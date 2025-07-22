@@ -171,9 +171,9 @@ header a {
   color: black;
 }
 .custom-search-box {
-  height: 200px;
+  /* height: 200px; */
   max-height: none;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   font-size: 1.1rem;
 }
 /* TRUYEN NOI BAT */
