@@ -89,3 +89,44 @@ footer a {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 768px) {
+  header {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+  .ten,
+  .matkhau,
+  .checkbox {
+    margin-left: 0;
+    width: 100%;
+    padding: 0 10px;
+  }
+  #username,
+  #password {
+    width: 100%;
+    min-width: 0;
+    font-size: 1rem;
+  }
+  .button {
+    margin-left: 0;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #nut {
+    width: 20%;
+    height: 45px;
+    font-size: 16px;
+  }
+  .duoi {
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .login {
+    font-size: 17px;
+    text-align: center;
+  }
+  footer {
+    padding-top: 12px;
+    font-size: 14px;
+  }
+}

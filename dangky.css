@@ -117,3 +117,52 @@ footer a {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 768px) {
+  header {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+
+  .ten,
+  .matkhau,
+  .nhaplai,
+  .email,
+  .checkbox {
+    margin-left: 0;
+    width: 100%;
+    padding: 0 10px;
+  }
+  #username,
+  #password,
+  #email {
+    width: 100%;
+    min-width: 0;
+    font-size: 1rem;
+  }
+  .button {
+    margin-left: 0;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #nut {
+    width: 20%;
+    height: 45px;
+    font-size: 16px;
+  }
+  .duoi {
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .container h5 {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .login {
+    padding: 60px 0 0 0;
+  }
+  footer {
+    padding-top: 12px;
+    font-size: 14px;
+  }
+}
