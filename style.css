@@ -171,10 +171,11 @@ header a {
   color: black;
 }
 .custom-search-box {
-  /* height: 200px; */
   max-height: none;
-  /* padding: 10px 15px; */
+  width: 200px;
   font-size: 1.1rem;
+  border-radius: 50px;
+  text-align: center;
 }
 /* TRUYEN NOI BAT */
 .featured-grid a {
